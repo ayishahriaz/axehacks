@@ -102,10 +102,10 @@ header {
     width: 300px; /* Set the width of each item */
     padding: 10px;
     text-align: center;
-    background-color: #fff; /* White background for each item */
-    margin-right: 10px; /* Add some space between items */
-    border-radius: 5px; /* Add rounded corners */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+    background-color: #fff; 
+    margin-right: 10px; 
+    border-radius: 5px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
 }
 
 .textbook-info img {
@@ -142,4 +142,43 @@ header {
 
 .next {
     right: 10px;
+}
+
+
+.compare-button {
+    background-color: #74ADCE; 
+    color: white; 
+    border: none; 
+    font-size: 18px; 
+    padding: 10px 10px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    margin-left: 670px;
+    margin-top: 50px;
+
+}
+
+.compare-button:hover {
+    background-color: #6b6b6b;
+}
+
+
+.book1-section .book1-container {
+    background-color: rgba(255, 165, 0, 0.5); 
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 360px;
+
+}
+
+.book1-section .store {
+    margin: 0 10px; /* Adjust margin as needed */
+    text-align: center; /* Center the content within each store */
+}
+
+.store img {
+    width: 200px;
 }
